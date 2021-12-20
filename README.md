@@ -12,6 +12,7 @@ Manually select all the sequences in the dataset and then move to next step
 
 ## 2. Skip frame
 Skip middle frames to increase scale and shaking speed by runing the script [skip_frame.sh](./skip_frame.sh) (eg: ``source skip_frame.sh Car_in1``).
+
 Script parameter:
 ```bash
 --img_dir: image directory 
@@ -35,6 +36,7 @@ Repeate step 2 and 3 through all the sequences in the dataset
 ## 4. Genenrate annotation
 Check the marked object in ``Mark_object`` folder.
 Generate annotation for the object by running script [gen_anno.sh](./gen_anno.sh) (eg: source gen_anno.sh Car_in1 to generate annotation for this directory)
+
 Script parameter:
 ```bash
 --config: loaded config file for the tracker (do not change this parameter)
