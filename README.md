@@ -67,3 +67,4 @@ Guide:
 - Press 'f' to fix bounding box
 - Press 'b' to go back to the previous image
 - Press 'q' to quit
+
