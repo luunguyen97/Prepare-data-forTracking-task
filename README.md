@@ -57,6 +57,7 @@ Running in auto mode:
 
 ## 5. Check annotation
 Check and fix annotation by running [check_anno.sh](check_anno.sh) (eg: source check_anno.sh Car_in1)
+
 Script parameters:
 ```bash
 - img_dir: image directory
@@ -69,5 +70,3 @@ Guide:
 - Press 'f' to fix bounding box
 - Press 'b' to go back to the previous image
 - Press 'q' to quit
-
-
