@@ -35,7 +35,7 @@ Repeate step 2 and 3 through all the sequences in the dataset
 
 ## 4. Genenrate annotation
 Check the marked object in ``Mark_object`` folder.
-Generate annotation for the object by running script [gen_anno.sh](./gen_anno.sh) (eg: source gen_anno.sh Car_in1 to generate annotation for this directory)
+Generate annotation for the object by running script [gen_anno.sh](./gen_anno.sh) (eg: source gen_anno.sh Car_in1 to generate annotation for this directory). The bounding boxes are in xywh format
 
 Script parameter:
 ```bash
