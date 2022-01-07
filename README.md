@@ -86,6 +86,6 @@ Validate dataset structure:
 
 ```
 
-Generate val json file by running [gen_json.sh](gen_sjon.sh)
+Generate val json file by running [gen_json.sh](gen_json.sh)
 
 This json file is used when evaluate Tracker model on AR benchmark
