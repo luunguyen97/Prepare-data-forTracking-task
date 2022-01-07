@@ -73,5 +73,7 @@ Guide:
 
 ## 6. Create validate dataset
 Take 20% of the dataset to make validate dataset.
+
 Generate val json file by running [gen_json.sh](gen_sjon.sh)
+
 This json file is used when evaluate Tracker model on AR benchmark
