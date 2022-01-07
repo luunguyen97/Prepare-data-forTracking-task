@@ -70,3 +70,8 @@ Guide:
 - Press 'f' to fix bounding box
 - Press 'b' to go back to the previous image
 - Press 'q' to quit
+
+## 6. Create validate dataset
+Take 20% of the dataset to make validate dataset.
+Generate val json file by running [gen_json.sh](gen_sjon.sh)
+This json file is used when evaluate Tracker model on AR benchmark
