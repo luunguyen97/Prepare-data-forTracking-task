@@ -74,6 +74,18 @@ Guide:
 ## 6. Create validate dataset
 Take 20% of the dataset to make validate dataset.
 
+Validate dataset structure:
+```
+└── QDT_TIR
+    |── airplane_H_001
+        ├── img
+        ├── groundtruth_rect.txt
+    |── airplane_H_001
+        ├── img
+        ├── groundtruth_rect.txt
+
+```
+
 Generate val json file by running [gen_json.sh](gen_sjon.sh)
 
 This json file is used when evaluate Tracker model on AR benchmark
