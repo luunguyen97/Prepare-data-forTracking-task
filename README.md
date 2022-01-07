@@ -80,7 +80,7 @@ Validate dataset structure:
     |── airplane_H_001
         ├── img
         ├── groundtruth_rect.txt
-    |── airplane_H_001
+    |── airplane_H_002
         ├── img
         ├── groundtruth_rect.txt
 
